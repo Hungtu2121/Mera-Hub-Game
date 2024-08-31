@@ -2924,7 +2924,7 @@ end
 end)
 
 
-if Third_Sea then
+
 local ToggleRandomBone = Tabs.Main:AddToggle("ToggleRandomBone", {Title = "Đổi xương",Description = "", Default = false })
 ToggleRandomBone:OnChanged(function(Value)  
 		_G.AutoRandomBone = Value
@@ -3314,7 +3314,7 @@ local boss = Tabs.Main:AddSection("Farm Boss")
       
       local RoughSea = Tabs.Sea:AddSection(" Kitsune ")
 
-if Third_Sea then
+
       local ToggleEspKitsune = Tabs.Sea:AddToggle("ToggleEspKitsune", {Title = "Esp ilands Kitsune",Description = "định vị đảo kitsune", Default = true })
       ToggleEspKitsune:OnChanged(function(Value)
         KitsuneIslandEsp = Value
@@ -3797,7 +3797,7 @@ spawn(function()
 
 
 
-if Third_Sea then
+
     local Sea = Tabs.Sea:AddSection("Sea Beast")
 
 
@@ -4076,7 +4076,7 @@ local Items = Tabs.Concac:AddSection("Tab Item")
 
 
 
-if Third_Sea then
+
 local ToggleCastleRaid = Tabs.Concac:AddToggle("ToggleCastleRaid", {
         Title = "Farm Pirates",
         Description = "Đánh hải tặc", 
@@ -4303,7 +4303,6 @@ if Second_Sea then
 
     end
 
-        if Third_Sea then
     local ToggleCakeV2 = Tabs.Concac:AddToggle("ToggleCakeV2", {Title = "Giết Katakuri V2 (Cần Triệu Hồi)",Description = "", Default = false })
     ToggleCakeV2:OnChanged(function(Value)
         _G.AutoCakeV2 = Value
@@ -4348,7 +4347,7 @@ end
 
 
     
-if Second_Sea or Third_Sea then
+
     local ToggleHakiColor = Tabs.Concac:AddToggle("ToggleHakiColor", {Title = "Mua Haki Màu",Description = "",Default = false })
     ToggleHakiColor:OnChanged(function(Value)
         _G.Auto_Buy_Enchancement = Value
@@ -6577,7 +6576,7 @@ if First_Sea or Second_Sea then
     local Mastery = Tabs.Hop:AddSection("Sea 3 làm ơn!!!")
 end
 
-if Third_Sea then
+
 local ToggleFindMoon = Tabs.Hop:AddToggle("ToggleFindMoon", {Title = "Tìm trăng tròn",Description = "", Default = false })
 ToggleFindMoon:OnChanged(function(Value)
     _G.AutoFindMoon = Value
